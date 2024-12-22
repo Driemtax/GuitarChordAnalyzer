@@ -1,0 +1,22 @@
+﻿<Window x:Class="ChordVisualizer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChordVisualizer"
+        mc:Ignorable="d"
+        Title="Guitar Chord Visualizer" Height="1080" Width="1920"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <!-- Gitarrenhals -->
+        <Canvas Name="FretboardCanvas" Background="Beige" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <!-- Beschriftungen und Linien werden dynamisch aus dem Code-Behind hinzugefügt -->
+        </Canvas>
+
+        <!-- Steuerung -->
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" Height="50" Background="Gray">
+            <Button Content="Start Recording" Width="120" Margin="5" Click="StartRecording_Click"/>
+            <Button Content="Stop Recording" Width="120" Margin="5" Click="StopRecording_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

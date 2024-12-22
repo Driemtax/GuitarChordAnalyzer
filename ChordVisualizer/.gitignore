@@ -1,0 +1,72 @@
+﻿# Build-Ordner
+bin/
+obj/
+
+# User-spezifische Dateien
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Backup- und Logdateien
+*.log
+*.bak
+*.swp
+*.orig
+*.tmp
+
+# Paket-Manager-Dateien
+*.pdb
+*.cache
+*.ilk
+*.dll
+*.exe
+*.nupkg
+*.snupkg
+
+# Visual Studio-spezifische Dateien
+.vs/
+.vscode/
+.idea/
+
+# NuGet-Paketdateien
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Rider/JetBrains-spezifische Dateien
+.idea/
+*.iml
+*.sln.iml
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# MacOS-spezifische Dateien
+.DS_Store
+
+# Windows-spezifische Dateien
+Thumbs.db
+desktop.ini
+
+# Temp-Dateien
+~$*
+
+# Lokale Konfigurationen
+appsettings.json
+appsettings.*.json
+
+# Andere generierte Dateien
+*.g.i.cs
+*.g.cs
+*.Designer.cs
+
+# Debugging-Dateien
+*.tlog
+*.lastbuildstate
+*.log
+
+# Global JetBrains Rider settings
+.idea/
